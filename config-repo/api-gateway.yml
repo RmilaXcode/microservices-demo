@@ -28,7 +28,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://192.168.99.100:8080/realms/microservices-realm
+          issuer-uri: http://localhost:8080/realms/microservices-realm
 server:
   port: 8180
 logging:

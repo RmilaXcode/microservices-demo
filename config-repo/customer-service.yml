@@ -1,7 +1,8 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: validate
+      hbm2ddl: create
+      ddl-auto: create
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
